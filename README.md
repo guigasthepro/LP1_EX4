@@ -28,8 +28,9 @@ O programa deverá apresentar o seguinte menu:
     puts("+------------------------------+");
     </pre>
     
-- Opção *1* , o utilizador deverá introduzir os numeros com os valores que acha que são o euromilhões, de seguida após armazenar deverá mostrar uma mensagem ao utilizador 
-  para saber que o seu número foi inserido com sucesso. *Numeros:(num[])\n Estrelas:(est[])\n Você introduziu a sua chave com sucesso* De seguinda o programa deverá verificar se o jogador ganhou algum prémio:
+- Opção *1* , o utilizador deverá introduzir os numeros com os valores que acha que são o euromilhões, de seguida após armazenar deverá mostrar uma mensagem ao utilizador para saber que o seu número foi inserido com sucesso:
+*Numeros:(num[])\n Estrelas:(est[])\n Você introduziu a sua chave com sucesso*.
+De seguinda o programa deverá verificar se o jogador ganhou algum prémio:
   Caso o utilizador ganhe deverá mostrar a seguinte mensagem *Acertaste <x> numeros e <x> estrelas*, caso não ganhe nada deverá mostrar a seguinte mensagem: *Tiveste azar! Nao ganhaste nada...*
 
 <pre>
