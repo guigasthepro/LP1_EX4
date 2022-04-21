@@ -16,19 +16,20 @@ Uma vez escolhida uma das opções apresentadas o programa deverá executá-la.
 Após o término dessa operação o programa deverá voltar ao menu principal.
 Caso o utilizador insira uma opção inválida o programa deverá mostrar a seguinte mensagem : *Opcao Invalida*
 
-**Nota :** O programa deverá estar em loop e deverá sair do mesmo apenas quando o utilizador inserir a opção *<opcMenu> = 3 || <opcMenuFinal> = 2*.
+**Nota :** O programa deverá estar em loop e deverá sair do mesmo apenas quando o utilizador inserir a opção *(opcMenu) = 3 || (opcMenuFinal) = 2*.
 
 O programa deverá apresentar o seguinte menu:
     <pre>    
-    //puts("+-- Euromilhoes ---------------+");
-    //puts("|  1  -  Chave Manual          |");
-    //puts("|  2  -  Chave Automatica      |");
-    //puts("+-- Outros --------------------+"); 
-    //puts("|  3  -  Sair do Programa      |");
-    //puts("+------------------------------+");
+    puts("+-- Euromilhoes ---------------+");
+    puts("|  1  -  Chave Manual          |");
+    puts("|  2  -  Chave Automatica      |");
+    puts("+-- Outros --------------------+"); 
+    puts("|  3  -  Sair do Programa      |");
+    puts("+------------------------------+");
     </pre>
+    
 - Opção *1* , o utilizador deverá introduzir os numeros com os valores que acha que são o euromilhões, de seguida após armazenar deverá mostrar uma mensagem ao utilizador 
-  para saber que o seu número foi inserido com sucesso. *Numeros:<num[]>\n Estrelas:<est[]>\n Você introduziu a sua chave com sucesso* De seguinda o programa deverá verificar se o jogador ganhou algum prémio:
+  para saber que o seu número foi inserido com sucesso. *Numeros:(num[])\n Estrelas:(est[])\n Você introduziu a sua chave com sucesso* De seguinda o programa deverá verificar se o jogador ganhou algum prémio:
   Caso o utilizador ganhe deverá mostrar a seguinte mensagem *Acertaste <x> numeros e <x> estrelas*, caso não ganhe nada deverá mostrar a seguinte mensagem: *Tiveste azar! Nao ganhaste nada...*
 
 <pre>
@@ -69,7 +70,7 @@ Parabens, ganhaste 7.44 euros
 
 
 - Opção *2*, o programa deverá gerar uma chave automática para o utilizador e de seguida verificar se o mesmo ganhou algum prémio:
-  Caso o utilizador ganhe deverá mostrar a seguinte mensagem *Acertaste <x> numeros e <x> estrelas*, caso não ganhe nada deverá mostrar a seguinte mensagem: *Tiveste azar! Nao ganhaste nada...*
+  Caso o utilizador ganhe deverá mostrar a seguinte mensagem *Numeros:(num[])\n Estrelas:(est[])\n Você introduziu a sua chave com sucesso*, caso não ganhe nada deverá   mostrar a seguinte mensagem: *Tiveste azar! Nao ganhaste nada...*
 
 <pre>
 Exemplo
